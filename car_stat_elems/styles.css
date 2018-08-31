@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	}
+
+.container {
+	position: relative;
+	top: -28px;
+	width: 100%;
+	background-color: #707070;
+}
+
+.time{
+	position: absolute;
+	text-align: center;
+	height: 28px;
+	color: white;
+	white-space: nowrap
+}
+
+.reservation > div {
+	top: -50%;
+}
+
+.temp_reservs{
+	background-color: #2dd435;
+}
+
+.reservs{
+	background-color: blue;
+}
+
+.status > div{
+	top: 29px;
+	
+}
+
+.inUse{
+	background-color: #888;
+	color: skyblue;
+}
+
+.doneUse{
+	background-color: black;
+	color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	font-size: 125%;
+}
+
+/*tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+
+}
+
+th{
+	background: #beeb87;
+	text-align: center;
+}
+td{
+	height: 60px;
+}
+
+#car_h{
+width:17.5%;
+background:#a26cba;
+color: white;	
+}
+
+#status_h{
+	width:7.5%;
+	background: #e287eb;
+	color: white;
+}
+
+.in{
+	background: #2dd435;
+	color: white;
+	text-align	: center;
+}
+
+.out{
+	background: #888;
+	color: #fff;
+	text-align	: center;
+}
+
+.in1{
+	color: #2dd435;
+	text-align	: center;
+	font-weight : bold;
+}
+
+.out1{
+	color: #888;
+	text-align	: center;
+}
+
+
+
+.top-text {
+  height:28px;
+}
+.lines > div {
+  border-left: thick solid red;
+  height: 200px;
+  position: absolute;
+}
+
+.time_boxes {
+	position: absolute;
+	box-sizing: border-box;
+	text-align: center;
+	width: 6.25%;
+	height: 42px;
+	padding-top: 8px;
+	border: 1px solid black;
+	background-color: #e287eb;
+	color: white;
+}
+
+.time_boxes:nth-child(odd){
+	background-color: #a26cba;
+}
+
+.verticalLine{
+	border-left:thick solid brown;
+	height:582px;
+	top: 92px;
+	position: absolute;
+}
